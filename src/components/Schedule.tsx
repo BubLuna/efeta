@@ -183,8 +183,8 @@ const Schedule = () => {
                     className="flex bg-white rounded-lg overflow-hidden border border-gray-100 transition-all duration-300 hover:shadow-soft group"
                   >
                     <div className="w-20 sm:w-28 bg-efeta-50 flex items-center justify-center p-4 font-medium text-efeta-500 group-hover:bg-efeta-100 transition-colors">
-                      <Clock className="mr-1 hidden sm:inline" size={16} />
-                      <span>{item.BookOpen}</span>
+                      <BookOpen className="mr-1 hidden sm:inline" size={16} />
+                      <span>{item.Time}</span>
                     </div>
                     <div className="flex-1 p-4 sm:p-6">
                       <div className="flex items-start">
