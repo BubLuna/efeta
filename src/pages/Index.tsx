@@ -9,6 +9,7 @@ import RegistrationCTA from '@/components/RegistrationCTA';
 import FAQ from '@/components/FAQ';
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
+import PhotoGallery from '@/components/PhotoGallery';
 
 const Index = () => {
   // Animação de entrada da página para melhorar a experiência do usuário
@@ -39,6 +40,7 @@ const Index = () => {
         <EventInfo />
         <Features />
         <Testimonials />
+        <PhotoGallery />
         <Schedule />
         <RegistrationCTA />
         <FAQ />

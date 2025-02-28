@@ -82,6 +82,16 @@
   .efeta-gradient-subtle {
     @apply bg-gradient-to-r from-efeta-100 to-white;
   }
+  
+  /* Esconder barra de rolagem mas manter funcionalidade */
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
 }
 
 /* Animações para page transitions */
