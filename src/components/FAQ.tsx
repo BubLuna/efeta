@@ -10,8 +10,8 @@ import {
 const FAQ = () => {
   const faqItems = [
     {
-      question: "Quem pode participar do Acampamento EFETA?",
-      answer: "O Acampamento EFETA é destinado a jovens e adultos de 16 a 35 anos, com dois eventos anuais: um para participantes de 16 a 24 anos e outro para aqueles de 25 a 35 anos. Em casos especiais, pessoas com mais de 35 anos podem tentar obter uma vaga entrando em contato pelo WhatsApp. Todos são bem-vindos, independentemente do nível de conhecimento religioso ou da experiência prévia em retiros."
+      question: "Quem pode participar do Acampamento ÉFETA?",
+      answer: "O Acampamento ÉFETA é destinado a jovens e adultos de 16 a 35 anos, com dois eventos anuais: um para participantes de 16 a 24 anos e outro para aqueles de 25 a 35 anos. Em casos especiais, pessoas com mais de 35 anos podem tentar obter uma vaga entrando em contato pelo WhatsApp. Todos são bem-vindos, independentemente do nível de conhecimento religioso ou da experiência prévia em retiros."
     },
     {
       question: "O que devo levar para o retiro?",
@@ -30,12 +30,12 @@ const FAQ = () => {
       answer: "No formulário de inscrição, há um campo para informar necessidades alimentares especiais (alergias, intolerâncias, restrições). Faremos o possível para acomodar todas as necessidades, desde que informadas com antecedência."
     },
     {
-      question: "Posso levar meu celular para o Acampamento EFETA?",
+      question: "Posso levar meu celular para o Acampamento ÉFETA?",
       answer: "Preferimos que os participantes não tragam celulares para o acampamento. O objetivo é proporcionar um momento de desconexão do mundo exterior, permitindo que você se concentre no seu crescimento espiritual e nas experiências compartilhadas com os outros. O uso do celular pode ser uma distração e tirar o foco das vivências e reflexões que queremos oferecer. No entanto, caso seja necessário entrar em contato com alguém, os coordenadores terão seus celulares à disposição para atender a qualquer emergência. Essa é uma oportunidade para se reconectar consigo mesmo e com o propósito do evento, sem as distrações do cotidiano."
     },
     {
-      question: "Como funciona o alojamento no Acampamento EFETA?",
-      answer: "No Acampamento EFETA, os participantes serão alojados separadamente por gênero, com meninas e meninos em locais distintos. Isso é feito para garantir um ambiente organizado e respeitoso para todos. Cada pessoa terá seu espaço para descanso à noite, com total segurança. Essa organização visa oferecer uma experiência tranquila, focada no propósito espiritual do evento."
+      question: "Como funciona o alojamento no Acampamento ÉFETA?",
+      answer: "No Acampamento ÉFETA, os participantes serão alojados separadamente por gênero, com meninas e meninos em locais distintos. Isso é feito para garantir um ambiente organizado e respeitoso para todos. Cada pessoa terá seu espaço para descanso à noite, com total segurança. Essa organização visa oferecer uma experiência tranquila, focada no propósito espiritual do evento."
     }
   ];
 
@@ -45,7 +45,7 @@ const FAQ = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900">Perguntas Frequentes</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Esclarecemos as dúvidas mais comuns sobre o Acampamento EFETA. Se sua pergunta não estiver aqui, entre em contato conosco.
+            Esclarecemos as dúvidas mais comuns sobre o Acampamento ÉFETA. Se sua pergunta não estiver aqui, entre em contato conosco.
           </p>
         </div>
 
