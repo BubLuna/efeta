@@ -21,15 +21,15 @@ interface DaySchedule {
 const Schedule = () => {
   const schedule: DaySchedule[] = [
     {
-      date: "2 de Maio",
-      day: "Quinta-feira",
-      theme: "Acolhimento e Abertura",
+      date: "10º Éfeta",
+      day: "Setembro 2024",
+      theme: "Eu Vos Escolhi / Jo 15,19",
       items: [
         {
           time: "14:00",
           title: "Check-in",
           description: "Recepção dos participantes e distribuição dos materiais",
-          icon: <Users size={18} />
+          icon: <Heart size={18} />
         },
         {
           time: "16:00",
@@ -41,19 +41,19 @@ const Schedule = () => {
           time: "18:00",
           title: "Jantar",
           description: "Primeira refeição em comunidade",
-          icon: <Coffee size={18} />
+          icon: <Heart size={18} />
         },
         {
           time: "20:00",
           title: "Celebração de Abertura",
           description: "Momento de louvor e introdução ao tema do retiro",
-          icon: <Music size={18} />
+          icon: <Heart size={18} />
         },
         {
           time: "22:00",
           title: "Momento de Reflexão",
           description: "Tempo pessoal para oração e meditação",
-          icon: <Moon size={18} />
+          icon: <Heart size={18} />
         }
       ]
     },
@@ -171,7 +171,7 @@ const Schedule = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900">Programação</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Confira a programação completa dos três dias de retiro espiritual do Acampamento EFETA.
+            Confira as informações dos ultimos retiros do Acampamento ÉFETA.
           </p>
         </div>
 
@@ -200,7 +200,7 @@ const Schedule = () => {
               {day.theme && (
                 <div className="mb-6 text-center">
                   <div className="inline-block px-4 py-1 rounded-full text-sm font-medium bg-efeta-500 text-white mb-1">
-                    Tema do Dia
+                    Tema
                   </div>
                   <p className="text-xl text-gray-800 font-medium">{day.theme}</p>
                 </div>
