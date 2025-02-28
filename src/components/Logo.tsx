@@ -19,7 +19,7 @@ const Logo: React.FC<LogoProps> = ({ className, size = 'md' }) => {
     <div className={cn('flex items-center gap-2 font-display font-bold text-efeta-500', sizes[size], className)}>
       <div className="relative">
         <div className="absolute inset-0 bg-efeta-500 rounded-full blur-sm opacity-30 animate-pulse-soft"></div>
-        <Tent className="text-efeta-500 relative z-10" />
+        <Tent className="relative z-10" />
       </div>
       <span>EFETA</span>
     </div>

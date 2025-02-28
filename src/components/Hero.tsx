@@ -32,6 +32,18 @@ const Hero = () => {
 
   return (
     <div className="relative h-screen overflow-hidden bg-efeta-50">
+      {/* Decorative elements */}
+      <div className="absolute top-20 right-10 w-20 h-20 bg-efeta-300 rounded-full opacity-30 animate-float" style={{animationDelay: '0.5s'}}></div>
+      <div className="absolute top-32 left-10 w-12 h-12 bg-efeta-400 rounded-full opacity-20 animate-float" style={{animationDelay: '1.2s'}}></div>
+      <div className="absolute bottom-40 right-20 w-16 h-16 bg-efeta-200 rounded-full opacity-40 animate-float" style={{animationDelay: '0.8s'}}></div>
+      
+      {/* Diagonal line decorations */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+        <div className="absolute top-20 left-0 w-full h-1 bg-efeta-300 opacity-30 transform -rotate-12 origin-left"></div>
+        <div className="absolute top-40 right-0 w-full h-0.5 bg-efeta-400 opacity-20 transform rotate-12 origin-right"></div>
+        <div className="absolute bottom-80 left-0 w-full h-0.5 bg-efeta-500 opacity-30 transform rotate-6 origin-left"></div>
+      </div>
+      
       {/* Overlay gradients */}
       <div className="absolute inset-0 bg-gradient-to-b from-white/20 to-efeta-500/20 mix-blend-overlay"></div>
       
@@ -46,8 +58,8 @@ const Hero = () => {
       ></div>
       
       {/* Content container */}
-      <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
-        <div className="glass max-w-3xl p-8 rounded-2xl animate-fade-in">
+      <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 pt-20">
+        <div className="glass max-w-3xl p-8 rounded-2xl animate-fade-in border-t-4 border-efeta-500">
           <div className="mb-4 inline-block">
             <span className="px-4 py-1 rounded-full text-sm font-medium bg-efeta-500 text-white animate-pulse-soft">
               11ª Edição
@@ -63,11 +75,11 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8 animate-slide-in" style={{ animationDelay: "200ms" }}>
-            <div className="flex items-center justify-center glass-orange px-4 py-3 rounded-lg">
+            <div className="flex items-center justify-center glass-orange px-4 py-3 rounded-lg border border-efeta-300">
               <Calendar className="text-efeta-500 mr-2" size={20} />
               <span className="text-gray-700">2, 3 e 4 de Maio</span>
             </div>
-            <div className="flex items-center justify-center glass-orange px-4 py-3 rounded-lg">
+            <div className="flex items-center justify-center glass-orange px-4 py-3 rounded-lg border border-efeta-300">
               <MapPin className="text-efeta-500 mr-2" size={20} />
               <span className="text-gray-700">São Paulo, Brasil</span>
             </div>
