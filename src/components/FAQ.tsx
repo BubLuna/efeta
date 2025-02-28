@@ -11,15 +11,15 @@ const FAQ = () => {
   const faqItems = [
     {
       question: "Quem pode participar do Acampamento EFETA?",
-      answer: "O Acampamento EFETA é destinado a jovens e adultos entre 20 e 35 anos. Todos são bem-vindos, independentemente do nível de conhecimento religioso ou experiência prévia em retiros."
+      answer: "O Acampamento EFETA é destinado a jovens e adultos de 16 a 35 anos, com dois eventos anuais: um para participantes de 16 a 24 anos e outro para aqueles de 25 a 35 anos. Em casos especiais, pessoas com mais de 35 anos podem tentar obter uma vaga entrando em contato pelo WhatsApp. Todos são bem-vindos, independentemente do nível de conhecimento religioso ou da experiência prévia em retiros."
     },
     {
       question: "O que devo levar para o retiro?",
-      answer: "Recomendamos trazer roupas confortáveis, itens de higiene pessoal, Bíblia (se tiver), caderno para anotações, medicamentos pessoais se necessário, e uma atitude aberta para vivenciar novas experiências espirituais."
+      answer: "Recomendamos que você traga roupas confortáveis, itens de higiene pessoal, Bíblia (se tiver), caderno para anotações, além de uma panela, corda e lanterna. Também é importante trazer medicamentos pessoais de uso controlado, caso necessário, e, claro, uma atitude aberta para vivenciar novas experiências espirituais."
     },
     {
       question: "As refeições estão inclusas no valor da inscrição?",
-      answer: "Sim, todas as refeições durante os três dias de retiro estão inclusas no valor da inscrição. Oferecemos café da manhã, almoço e jantar, além de lanches nos intervalos das atividades."
+      answer: "Sim, todas as refeições durante os três dias de retiro estão inclusas no valor da inscrição."
     },
     {
       question: "Posso sair do local do retiro durante o evento?",
@@ -30,12 +30,12 @@ const FAQ = () => {
       answer: "No formulário de inscrição, há um campo para informar necessidades alimentares especiais (alergias, intolerâncias, restrições). Faremos o possível para acomodar todas as necessidades, desde que informadas com antecedência."
     },
     {
-      question: "Como funciona o alojamento?",
-      answer: "O alojamento é em quartos compartilhados, separados por gênero. Fornecemos colchões, mas cada participante deve trazer seus próprios itens de cama (lençol, cobertor, travesseiro)."
+      question: "Posso levar meu celular para o Acampamento EFETA?",
+      answer: "Preferimos que os participantes não tragam celulares para o acampamento. O objetivo é proporcionar um momento de desconexão do mundo exterior, permitindo que você se concentre no seu crescimento espiritual e nas experiências compartilhadas com os outros. O uso do celular pode ser uma distração e tirar o foco das vivências e reflexões que queremos oferecer. No entanto, caso seja necessário entrar em contato com alguém, os coordenadores terão seus celulares à disposição para atender a qualquer emergência. Essa é uma oportunidade para se reconectar consigo mesmo e com o propósito do evento, sem as distrações do cotidiano."
     },
     {
-      question: "Posso pagar a inscrição em parcelas?",
-      answer: "Sim, oferecemos opções de pagamento parcelado. Os detalhes estão disponíveis na página de inscrição. Também oferecemos descontos para inscrições antecipadas."
+      question: "Como funciona o alojamento no Acampamento EFETA?",
+      answer: "No Acampamento EFETA, os participantes serão alojados separadamente por gênero, com meninas e meninos em locais distintos. Isso é feito para garantir um ambiente organizado e respeitoso para todos. Cada pessoa terá seu espaço para descanso à noite, com total segurança. Essa organização visa oferecer uma experiência tranquila, focada no propósito espiritual do evento."
     }
   ];
 
