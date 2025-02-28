@@ -11,7 +11,7 @@ const FAQ = () => {
   const faqItems = [
     {
       question: "Quem pode participar do Acampamento ÉFETA?",
-      answer: "O Acampamento ÉFETA é destinado a jovens e adultos de 16 a 35 anos, com dois eventos anuais: um para participantes de 16 a 24 anos e outro para aqueles de 25 a 35 anos. Em casos especiais, pessoas com mais de 35 anos podem tentar obter uma vaga entrando em contato pelo WhatsApp. Todos são bem-vindos, independentemente do nível de conhecimento religioso ou da experiência prévia em retiros."
+      answer: "O Acampamento ÉFETA é destinado a jovens e adultos de 16 a 35 anos, com dois eventos anuais: um para participantes de 16 a 20 anos e outro para aqueles de 20 a 35 anos. Em casos especiais, pessoas com mais de 35 anos podem tentar obter uma vaga entrando em contato pelo WhatsApp. Todos são bem-vindos, independentemente do nível de conhecimento religioso ou da experiência prévia em retiros."
     },
     {
       question: "O que devo levar para o retiro?",
