@@ -8,15 +8,11 @@ interface EventInfoItemProps {
   title: string;
   description: string;
   className?: string;
-  style?: React.CSSProperties; // Add style prop to the interface
 }
 
-const EventInfoItem: React.FC<EventInfoItemProps> = ({ icon, title, description, className, style }) => {
+const EventInfoItem: React.FC<EventInfoItemProps> = ({ icon, title, description, className }) => {
   return (
-    <div 
-      className={cn("flex flex-col items-center text-center p-6 rounded-xl transition-all duration-300 hover:shadow-medium", className)}
-      style={style} // Pass the style prop to the div
-    >
+    <div className={cn("flex flex-col items-center text-center p-6 rounded-xl transition-all duration-300 hover:shadow-medium", className)}>
       <div className="mb-4 p-3 bg-efeta-50 text-efeta-500 rounded-full">
         {icon}
       </div>
