@@ -67,7 +67,7 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-efeta-950 text-shadow animate-slide-in">
-            Acampamento <span className="text-efeta-500">EFETA</span>
+            Acampamento <span className="text-efeta-500">ÉFETA</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-700 mb-6 max-w-2xl mx-auto animate-slide-in" style={{ animationDelay: "100ms" }}>
@@ -81,7 +81,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center justify-center glass-orange px-4 py-3 rounded-lg border border-efeta-300">
               <MapPin className="text-efeta-500 mr-2" size={20} />
-              <span className="text-gray-700">São Paulo, Brasil</span>
+              <span className="text-gray-700">Santuário da Beata Albertina</span>
             </div>
           </div>
           
