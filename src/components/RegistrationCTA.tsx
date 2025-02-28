@@ -35,7 +35,7 @@ const RegistrationCTA = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 font-display text-gray-900">Faça Parte Desta Experiência Única</h2>
             <p className="text-lg text-gray-700 mb-8">
-              O tempo está se esgotando! Garanta sua vaga no Acampamento EFETA e prepare-se para três dias de renovação espiritual, comunhão e crescimento na fé.
+              O tempo está se esgotando! Garanta sua vaga no Acampamento ÉFETA e prepare-se para três dias de renovação espiritual, comunhão e crescimento na fé.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
