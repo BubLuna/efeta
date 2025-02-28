@@ -23,141 +23,111 @@ const Schedule = () => {
     {
       date: "10º Éfeta",
       day: "Setembro 2024",
-      theme: "Eu Vos Escolhi / Jo 15,19",
+      theme: "Eu Vos Escolhi | Jo 15,19",
       items: [
         {
-          time: "14:00",
-          title: "Check-in",
-          description: "Recepção dos participantes e distribuição dos materiais",
+          time: "I",
+          title: "Efetados",
+          description: "Tivemos um total de 60 jovens Efetados",
           icon: <Heart size={18} />
         },
         {
-          time: "16:00",
-          title: "Acolhida",
-          description: "Boas-vindas e apresentação da equipe organizadora",
+          time: "II",
+          title: "Servos",
+          description: "Um total de 126 servos estiveram envolvidos na organização do evento.",
           icon: <Heart size={18} />
         },
         {
-          time: "18:00",
-          title: "Jantar",
-          description: "Primeira refeição em comunidade",
+          time: "III",
+          title: "Famílias envolvidas",
+          description: "+200 famílias envolvidas no retiro",
           icon: <Heart size={18} />
         },
         {
-          time: "20:00",
-          title: "Celebração de Abertura",
-          description: "Momento de louvor e introdução ao tema do retiro",
+          time: "IV",
+          title: "Música Tema",
+          description: "Romanos 12 - Fraternidade São João Paulo II",
           icon: <Heart size={18} />
         },
         {
-          time: "22:00",
-          title: "Momento de Reflexão",
-          description: "Tempo pessoal para oração e meditação",
+          time: "V",
+          title: "Relato de um Efetado da Edição",
+          description: "O Acampamento Éfeta me fez refletir sobre minhas escolhas e fortalecer minha fé de um jeito que nunca imaginei possível (Maria Clara, 16 anos)",
           icon: <Heart size={18} />
         }
       ]
     },
     {
-      date: "3 de Maio",
-      day: "Sexta-feira",
-      theme: "Formação e Comunhão",
+      date: "9º Éfeta",
+      day: "Maio 2024",
+      theme: "Coragem! Eu venci o mundo | Jo 16,33",
       items: [
         {
-          time: "07:00",
-          title: "Despertar",
-          description: "Começo do dia com oração matinal",
-          icon: <Sun size={18} />
+          time: "I",
+          title: "Efetados",
+          description: "Tivemos um total de 50 jovens Efetados",
+          icon: <Heart size={18} />
         },
         {
-          time: "08:00",
-          title: "Café da Manhã",
-          description: "Primeira refeição do dia",
-          icon: <Coffee size={18} />
+          time: "II",
+          title: "Servos",
+          description: "Um total de 116 servos estiveram envolvidos na organização do evento.",
+          icon: <Heart size={18} />
         },
         {
-          time: "09:30",
-          title: "Palestra 1",
-          description: "Tema: 'No Senhor ponho minha esperança'",
-          icon: <BookOpen size={18} />
+          time: "III",
+          title: "Famílias envolvidas",
+          description: "+190 famílias envolvidas no retiro",
+          icon: <Heart size={18} />
         },
         {
-          time: "12:00",
-          title: "Almoço",
-          description: "Refeição em comunidade",
-          icon: <Coffee size={18} />
+          time: "IV",
+          title: "Música Tema",
+          description: "De ti Preciso - Frei Gilson",
+          icon: <Heart size={18} />
         },
         {
-          time: "14:00",
-          title: "Dinâmicas em Grupo",
-          description: "Atividades para integração e partilha",
-          icon: <Users size={18} />
-        },
-        {
-          time: "16:00",
-          title: "Palestra 2",
-          description: "Tema: 'A esperança que não decepciona'",
-          icon: <BookOpen size={18} />
-        },
-        {
-          time: "18:00",
-          title: "Jantar",
-          description: "Refeição em comunidade",
-          icon: <Coffee size={18} />
-        },
-        {
-          time: "20:00",
-          title: "Adoração",
-          description: "Noite de louvor e adoração",
-          icon: <Music size={18} />
+          time: "V",
+          title: "Relato de um Efetado da Edição",
+          description: "No Éfeta, encontrei um ambiente de amizade e espiritualidade que me ajudou a descobrir um novo propósito para minha vida (Ana Júlia, 19 anos)",
+          icon: <Heart size={18} />
         }
       ]
     },
     {
-      date: "4 de Maio",
-      day: "Sábado",
-      theme: "Renovação e Envio",
+      date: "8º Éfeta",
+      day: "Setembro 2023",
+      theme: "Mostra-nos tua face Senhor |  Salmo 80:19",
       items: [
         {
-          time: "07:00",
-          title: "Despertar",
-          description: "Começo do dia com oração matinal",
-          icon: <Sun size={18} />
-        },
-        {
-          time: "08:00",
-          title: "Café da Manhã",
-          description: "Última refeição matinal do retiro",
-          icon: <Coffee size={18} />
-        },
-        {
-          time: "09:30",
-          title: "Palestra Final",
-          description: "Tema: 'Levando a esperança ao mundo'",
-          icon: <BookOpen size={18} />
-        },
-        {
-          time: "12:00",
-          title: "Almoço",
-          description: "Última refeição em comunidade",
-          icon: <Coffee size={18} />
-        },
-        {
-          time: "14:00",
-          title: "Partilha de Experiências",
-          description: "Momento para compartilhar testemunhos",
+          time: "I",
+          title: "Efetados",
+          description: "Tivemos um total de 58 jovens Efetados",
           icon: <Heart size={18} />
         },
         {
-          time: "16:00",
-          title: "Celebração de Encerramento",
-          description: "Missa de ação de graças",
-          icon: <Music size={18} />
+          time: "II",
+          title: "Servos",
+          description: "Um total de 120 servos estiveram envolvidos na organização do evento.",
+          icon: <Heart size={18} />
         },
         {
-          time: "18:00",
-          title: "Despedida",
-          description: "Encerramento oficial e envio dos participantes",
-          icon: <Users size={18} />
+          time: "III",
+          title: "Famílias envolvidas",
+          description: "+170 famílias envolvidas no retiro",
+          icon: <Heart size={18} />
+        },
+        {
+          time: "IV",
+          title: "Música Tema",
+          description: "Meu Amigo Jesus - Tony Allysson",
+          icon: <Heart size={18} />
+        },
+        {
+          time: "V",
+          title: "Relato de um Efetado da Edição",
+          description: "Muito show (Rebeca Lindona Gata, 19 anos)",
+          icon: <Heart size={18} />
         }
       ]
     }
@@ -214,7 +184,7 @@ const Schedule = () => {
                   >
                     <div className="w-20 sm:w-28 bg-efeta-50 flex items-center justify-center p-4 font-medium text-efeta-500 group-hover:bg-efeta-100 transition-colors">
                       <Clock className="mr-1 hidden sm:inline" size={16} />
-                      <span>{item.time}</span>
+                      <span>{item.BookOpen}</span>
                     </div>
                     <div className="flex-1 p-4 sm:p-6">
                       <div className="flex items-start">
