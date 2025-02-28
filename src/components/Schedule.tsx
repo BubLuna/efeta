@@ -184,13 +184,10 @@ const Schedule = () => {
                   >
                     <div className="w-20 sm:w-28 bg-efeta-50 flex items-center justify-center p-4 font-medium text-efeta-500 group-hover:bg-efeta-100 transition-colors">
                       <BookOpen className="mr-1 hidden sm:inline" size={16} />
-                      <span>{item.time}</span>
+                      <span>{item.icon}</span>
                     </div>
                     <div className="flex-1 p-4 sm:p-6">
                       <div className="flex items-start">
-                        <div className="mr-3 p-2 rounded-md bg-efeta-50 text-efeta-500">
-                          {item.icon}
-                        </div>
                         <div>
                           <h3 className="font-semibold text-lg text-gray-800">{item.title}</h3>
                           <p className="text-gray-600">{item.description}</p>
