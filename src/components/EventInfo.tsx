@@ -38,7 +38,7 @@ const EventInfo = () => {
     {
       icon: <MapPin size={24} />,
       title: "Local",
-      description: "São Paulo, Brasil",
+      description: "São Luiz, Imaruí - SC",
     },
     {
       icon: <Clock size={24} />,
@@ -53,7 +53,7 @@ const EventInfo = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900">Informações do Evento</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Tudo o que você precisa saber sobre o Acampamento EFETA, um retiro voltado para a renovação espiritual e conexão com Deus.
+            Tudo o que você precisa saber sobre o Acampamento ÉFETA, um retiro voltado para a renovação espiritual e conexão com Deus.
           </p>
         </div>
 
