@@ -136,7 +136,7 @@ const Schedule = () => {
   const [activeDay, setActiveDay] = useState("day-1");
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white" id="historico">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900">Últimos retiros</h2>
