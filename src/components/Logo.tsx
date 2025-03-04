@@ -21,7 +21,7 @@ const Logo: React.FC<LogoProps> = ({ className, size = 'md' }) => {
         <div className="absolute inset-0 bg-efeta-500 rounded-full blur-sm opacity-30 animate-pulse-soft"></div>
         <Tent className="relative z-10" />
       </div>
-      <span>EFETA</span>
+      <span>ÉFETA</span>
     </div>
   );
 };
