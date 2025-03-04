@@ -40,7 +40,7 @@ const Features = () => {
     {
       icon: <BookOpen size={24} />,
       title: "Ensinamentos Bíblicos",
-      description: "Aprenda sobre a Bíblia de forma única, vivenciando momentos imersivos e apresentações teatrais que fortalecem seu entendimento e aplicação das escrituras."
+      description: "Aprenda sobre a Bíblia de forma única, vivenciando momentos imersivos que fortalecem seu entendimento e aplicação das escrituras."
     },
     {
       icon: <Users size={24} />,
