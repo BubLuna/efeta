@@ -24,7 +24,7 @@ const RegistrationCTA = () => {
         <div 
           className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ${imageLoaded ? 'opacity-30' : 'opacity-0'}`}
           style={{ 
-            backgroundImage: "url('/lovable-uploads/ccd6c099-c615-4f14-9722-1116054803fb.png')",
+            backgroundImage: "url('https://live.staticflickr.com/65535/54364918424_b4a70ff83e_b.jpg')",
             filter: "blur(8px)"
           }}
         ></div>
@@ -37,9 +37,11 @@ const RegistrationCTA = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-efeta-500 hover:bg-efeta-600 transition-all hover:scale-105">
-                Inscreva-se Agora
-              </Button>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9NgYJkKlw9Vl9ei5wYvg53l56SLAJeU3UNKBADle87zstMg/viewform" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-efeta-500 hover:bg-efeta-600 transition-all hover:scale-105">
+                  Inscreva-se Agora
+                </Button>
+              </a>
             </div>
           </div>
         </div>
