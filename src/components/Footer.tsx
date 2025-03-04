@@ -25,52 +25,6 @@ const Footer = () => {
           </div>
 
           <div className="col-span-1">
-            <h3 className="font-display text-lg font-semibold mb-4 text-gray-800">Acesso Rápido</h3>
-            <ul className="space-y-2">
-              <li>
-                <button 
-                  onClick={() => scrollToSection('start')}
-                  className="text-gray-600 hover:text-efeta-500 transition-colors"
-                >
-                  Início
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('info')}
-                  className="text-gray-600 hover:text-efeta-500 transition-colors"
-                >
-                  Sobre
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('historico')}
-                  className="text-gray-600 hover:text-efeta-500 transition-colors"
-                >
-                  Histórico
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('inscricoes')}
-                  className="text-gray-600 hover:text-efeta-500 transition-colors"
-                >
-                  Inscrições
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('faq')}
-                  className="text-gray-600 hover:text-efeta-500 transition-colors"
-                >
-                  FAQ
-                </button>
-              </li>
-            </ul>
-          </div>
-
-          <div className="col-span-1">
             <h3 className="font-display text-lg font-semibold mb-4 text-gray-800">Não esqueça!</h3>
             <ul className="space-y-2">
               <li className="text-gray-600">Biblia</li>
@@ -96,7 +50,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2 text-efeta-500 flex-shrink-0" />
-                <a href="tel:+551199999999" className="text-gray-600 hover:text-efeta-500 transition-colors">
+                <a className="text-gray-600 hover:text-efeta-500 transition-colors">
                   (11) 99999-9999
                 </a>
               </li>
