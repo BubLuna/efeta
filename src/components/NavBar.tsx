@@ -55,7 +55,7 @@ const NavBar = () => {
           {navItems.map((item) => (
             <Link
               key={item.path}
-              href={item.path}
+              to={item.path}
               className={cn(
                 'px-4 py-2 rounded-md font-medium transition-all duration-200',
                 isScrolled
@@ -105,7 +105,7 @@ const NavBar = () => {
             {navItems.map((item) => (
               <Link
                 key={item.path}
-                href={item.path}
+                to={item.path}
                 className={cn(
                   'px-4 py-3 rounded-md font-medium text-lg border-b border-gray-100',
                   location.pathname === item.path
