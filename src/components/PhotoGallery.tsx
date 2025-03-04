@@ -33,7 +33,7 @@ const photos = [
     id: 6,
     url: "https://live.staticflickr.com/65535/54364918424_b4a70ff83e_b.jpg",
     alt: "Chamado à Missão!"
-  }
+  },
   {
     id: 7,
     url: "https://live.staticflickr.com/65535/54364918459_2b4b03c624_b.jpg",
