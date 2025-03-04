@@ -91,6 +91,7 @@ const Hero = () => {
                 Inscreva-se Agora
               </Button>
             </a>
+          </div>
         </div>
         
         {/* Scroll indicator */}
