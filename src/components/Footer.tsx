@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
@@ -10,20 +9,21 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-        <div className="col-span-1">
+          {/* Contato Column */}
+          <div className="col-span-1 text-center">
             <h3 className="font-display text-lg font-semibold mb-4 text-gray-800">Contato</h3>
             <ul className="space-y-3">
-              <li className="flex items-start">
+              <li className="flex items-center justify-center">
                 <MapPin size={18} className="mr-2 text-efeta-500 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-600">Santuário da Beata Albertina</span>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center justify-center">
                 <Mail size={18} className="mr-2 text-efeta-500 flex-shrink-0" />
                 <a href="mailto:contato@acampamentoefeta.com" className="text-gray-600 hover:text-efeta-500 transition-colors">
                   contato@acampamentoefeta.com
                 </a>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center justify-center">
                 <Phone size={18} className="mr-2 text-efeta-500 flex-shrink-0" />
                 <a className="text-gray-600 hover:text-efeta-500 transition-colors">
                   (11) 99999-9999
@@ -32,6 +32,7 @@ const Footer = () => {
             </ul>
           </div>
           
+          {/* Logo and Social Media Column */}
           <div className="col-span-1 md:col-span-1 flex flex-col items-center text-center">
             <Logo className="mb-4" />
             <p className="text-gray-600 mb-4">
@@ -47,11 +48,11 @@ const Footer = () => {
             </div>
           </div>
 
-
-          <div className="col-span-1 text-right">
+          {/* Não esqueça Column */}
+          <div className="col-span-1 text-center">
             <h3 className="font-display text-lg font-semibold mb-4 text-gray-800">Não esqueça!</h3>
             <ul className="space-y-2">
-              <li className="text-gray-600">Biblia</li>
+              <li className="text-gray-600">Bíblia</li>
               <li className="text-gray-600">Panelas</li>
               <li className="text-gray-600">Lanternas</li>
               <li className="text-gray-600">Corda</li>
@@ -60,6 +61,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Footer bottom section */}
         <div className="border-t border-gray-200 mt-12 pt-8 text-center text-gray-500 text-sm">
           <p className="flex items-center justify-center">
             © {new Date().getFullYear()} Acampamento ÉFETA. Site feito com 
