@@ -88,7 +88,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-in" style={{ animationDelay: "300ms" }}>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9NgYJkKlw9Vl9ei5wYvg53l56SLAJeU3UNKBADle87zstMg/viewform">
               <Button size="lg" className="bg-efeta-500 hover:bg-efeta-600 transition-all hover:scale-105">
-                Inscreva-se Agora
+                Inscreva-se Agora!
               </Button>
             </a>
           </div>
