@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
 
 
-          <div className="col-span-1 text-righ">
+          <div className="col-span-1 text-right">
             <h3 className="font-display text-lg font-semibold mb-4 text-gray-800">Não esqueça!</h3>
             <ul className="space-y-2">
               <li className="text-gray-600">Biblia</li>
