@@ -19,19 +19,19 @@ const Testimonials = () => {
       image: "https://live.staticflickr.com/65535/54365482813_e9fd552091_b.jpg"
     },
     {
-      quote: "Uma experiência única de renovação espiritual. As palestras, os momentos de adoração e a comunhão com outros jovens foram transformadores.",
+      quote: "O Acampamento Éfeta foi uma experiência incrível que fortaleceu minha fé e me trouxe paz. Através das orações, dinâmicas e partilhas, me senti renovada e mais próxima de Deus. Sai grata por tudo que vivi e pelas pessoas que conheci!",
       author: "Maria Laura",
       role: "Participante da 8ª Edição",
       image: "https://live.staticflickr.com/65535/54365650510_db03015a5d_c.jpg"
     },
     {
-      quote: "Momentos de profunda conexão com Deus e com pessoas que compartilham os mesmos valores. Sinto que voltei renovada para enfrentar os desafios diários.",
+      quote: "Momentos de profunda conexão com Deus e com pessoas que compartilham os mesmos valores. Sinto que voltei renovado para enfrentar os meus desafios diários.",
       author: "Kaio da Rosa",
       role: "Participante da 10ª Edição",
       image: "https://live.staticflickr.com/65535/54365659165_1a5b4976d5_c.jpg"
     },
     {
-      quote: "Quando nos encontramos nos piores lugares do mundo, somente Deus pode nos salvar. O Éfeta, é o passo pra melhora e é também o lugar para encontrar as pessoas certas que nao nos deixam mais decair. É a maior virada de chave da nossa vida!",
+      quote: "Quando nos encontramos nos piores lugares do mundo, somente Deus pode nos salvar. O Éfeta é um passo pra melhora, é também o lugar para encontrar pessoas que nao nos deixarão mais decair. É a maior virada de chave da nossa vida!",
       author: "Rebeca Bublitz",
       role: "Participante da 8ª Edição",
       image: "https://live.staticflickr.com/65535/54365650505_0a0167cd36_c.jpg"
