@@ -96,7 +96,9 @@ const NavBar = () => {
         <div
           className={cn(
             'fixed inset-0 z-40 flex flex-col p-6 pt-24 transition-all duration-300 ease-in-out md:hidden',
-            isOpen ? 'bg-white opacity-100 translate-x-0' : 'opacity-0 translate-x-full pointer-events-none'
+            isOpen
+              ? 'bg-white opacity-100 translate-x-0'  // Aplica fundo branco quando o menu está aberto
+              : 'opacity-0 translate-x-full pointer-events-none'
           )}
         >
           <nav className="flex flex-col space-y-4">
