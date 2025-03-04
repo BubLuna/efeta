@@ -10,6 +10,7 @@ import FAQ from '@/components/FAQ';
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import PhotoGallery from '@/components/PhotoGallery';
+import CountdownTimer from '@/components/CountdownTimer'
 
 const Index = () => {
   // Animação de entrada da página para melhorar a experiência do usuário
@@ -43,6 +44,7 @@ const Index = () => {
         <section id="fotos"><PhotoGallery /></section>
         <section id="historico"><Schedule /></section>
         <section id="inscricoes"><RegistrationCTA /></section>
+        <section id="timer"><CountdownTimer /></section>
         <section id="faq"><FAQ /></section>
       </main>
       
