@@ -12,7 +12,7 @@ const RegistrationCTA = () => {
   // Efeito para pré-carregar a imagem
   useEffect(() => {
     const img = new Image();
-    img.src = '/lovable-uploads/ccd6c099-c615-4f14-9722-1116054803fb.png';
+    img.src = 'https://live.staticflickr.com/65535/54364918424_b4a70ff83e_b.jpg';
     img.onload = () => setImageLoaded(true);
   }, []);
   
