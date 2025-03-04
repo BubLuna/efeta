@@ -68,14 +68,12 @@ const NavBar = () => {
               {item.name}
             </button>
           ))}
-          <Button className={cn(
-            "ml-2 transition-colors",
+          <a href="/inscricoes" className={cn(
+            "ml-2 px-4 py-2 rounded-md font-medium transition-all duration-200",
             isScrolled
-              ? "bg-efeta-500 hover:bg-efeta-600"
+              ? "bg-efeta-500 hover:bg-efeta-600 text-white"
               : "bg-white text-efeta-500 hover:bg-efeta-50"
           )}>
-            Inscreva-se
-          </Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -119,9 +117,9 @@ const NavBar = () => {
                 {item.name}
               </button>
             ))}
-            <Button className="w-full mt-4 bg-efeta-500 hover:bg-efeta-600 transition-colors">
+            <a href="/inscricoes" className="w-full mt-4 px-4 py-3 rounded-md font-medium text-lg bg-efeta-500 hover:bg-efeta-600 text-white transition-colors">
               Inscreva-se
-            </Button>
+            </a>
           </nav>
         </div>
       </div>
