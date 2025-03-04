@@ -22,13 +22,13 @@ const Testimonials = () => {
       quote: "Uma experiência única de renovação espiritual. As palestras, os momentos de adoração e a comunhão com outros jovens foram transformadores.",
       author: "Maria Laura",
       role: "Participante da 8ª Edição",
-      image: "https://live.staticflickr.com/65535/54365482813_e9fd552091_b.jpg"
+      image: "https://live.staticflickr.com/65535/54365650510_db03015a5d_c.jpg"
     },
     {
       quote: "Momentos de profunda conexão com Deus e com pessoas que compartilham os mesmos valores. Sinto que voltei renovada para enfrentar os desafios diários.",
       author: "Kaio da Rosa",
       role: "Participante da 10ª Edição",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150"
+      image: "https://live.staticflickr.com/65535/54365659165_1a5b4976d5_c.jpg"
     },
     {
       quote: "Quando nos encontramos nos piores lugares do mundo, somente Deus pode nos salvar. O Éfeta, é o passo pra melhora e é também o lugar para encontrar as pessoas certas que nao nos deixam mais decair. É a maior virada de chave da nossa vida!",
