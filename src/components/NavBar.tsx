@@ -29,11 +29,11 @@ const NavBar = () => {
   }, [location.pathname]);
 
   const navItems = [
-    { name: 'Início', path: '#start' },
-    { name: 'Sobre', path: '#info' },
-    { name: 'Histórico', path: '#historico' },
-    { name: 'Inscrições', path: '#inscricoes' },
-    { name: 'FAQ', path: '#faq' },
+    { name: 'Início', path: '/' },
+    { name: 'Sobre', path: '/sobre' },
+    { name: 'Programação', path: '/programacao' },
+    { name: 'Inscrições', path: '/inscricoes' },
+    { name: 'Contato', path: '/contato' },
   ];
 
   return (
@@ -97,8 +97,8 @@ const NavBar = () => {
         {/* Mobile Navigation */}
         <div
           className={cn(
-            'fixed inset-0 z-40 flex flex-col p-6 pt-24 transition-all duration-300 ease-in-out md:hidden',
-            isOpen ? 'bg-white opacity-100 translate-x-0' : 'opacity-0 translate-x-full pointer-events-none'
+            'fixed inset-0 bg-white z-40 flex flex-col p-6 pt-24 transition-all duration-300 ease-in-out md:hidden',
+            isOpen ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full pointer-events-none'
           )}
         >
           <nav className="flex flex-col space-y-4">

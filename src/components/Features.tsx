@@ -40,7 +40,7 @@ const Features = () => {
     {
       icon: <BookOpen size={24} />,
       title: "Ensinamentos Bíblicos",
-      description: "Aprenda sobre a Bíblia de forma única, vivenciando momentos imersivos que fortalecem seu entendimento e aplicação das escrituras."
+      description: "Palestras e estudos bíblicos para fortalecer seu conhecimento e aplicação das escrituras."
     },
     {
       icon: <Users size={24} />,
@@ -70,7 +70,7 @@ const Features = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900">O Que Oferecemos</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            No Acampamento ÉFETA, preparamos uma experiência completa para fortalecer sua fé e criar memórias inesquecíveis.
+            No Acampamento EFETA, preparamos uma experiência completa para fortalecer sua fé e criar memórias inesquecíveis.
           </p>
         </div>
 
