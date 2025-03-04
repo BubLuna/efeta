@@ -9,33 +9,8 @@ const Footer = () => {
     <footer className="bg-gray-50 border-t border-gray-100 pt-12 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="col-span-1 md:col-span-1">
-            <Logo className="mb-4" />
-            <p className="text-gray-600 mb-4">
-              O Acampamento ÉFETA é um retiro espiritual para jovens e adultos que buscam uma experiência de fé e renovação.
-            </p>
-            <div className="flex space-x-4 text-gray-500">
-              <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-500 transition-colors" aria-label="Instagram">
-                <Instagram size={20} />
-              </a>
-              <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facampamentoefeta%2F" className="hover:text-efeta-500 transition-colors" aria-label="Facebook">
-                <Facebook size={20} />
-              </a>
-            </div>
-          </div>
 
-          <div className="col-span-1">
-            <h3 className="font-display text-lg font-semibold mb-4 text-gray-800">Não esqueça!</h3>
-            <ul className="space-y-2">
-              <li className="text-gray-600">Biblia</li>
-              <li className="text-gray-600">Panelas</li>
-              <li className="text-gray-600">Lanternas</li>
-              <li className="text-gray-600">Corda</li>
-              <li className="text-gray-600">Cobertores</li>
-            </ul>
-          </div>
-
-          <div className="col-span-1">
+        <div className="col-span-1">
             <h3 className="font-display text-lg font-semibold mb-4 text-gray-800">Contato</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
@@ -54,6 +29,33 @@ const Footer = () => {
                   (11) 99999-9999
                 </a>
               </li>
+            </ul>
+          </div>
+          
+          <div className="col-span-1 md:col-span-1 flex flex-col items-center text-center">
+            <Logo className="mb-4" />
+            <p className="text-gray-600 mb-4">
+              O Acampamento ÉFETA é um retiro espiritual para jovens e adultos que buscam uma experiência de fé e renovação.
+            </p>
+            <div className="flex space-x-4 text-gray-500 justify-center">
+              <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-500 transition-colors" aria-label="Instagram">
+                <Instagram size={20} />
+              </a>
+              <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facampamentoefeta%2F" className="hover:text-efeta-500 transition-colors" aria-label="Facebook">
+                <Facebook size={20} />
+              </a>
+            </div>
+          </div>
+
+
+          <div className="col-span-1 text-righ">
+            <h3 className="font-display text-lg font-semibold mb-4 text-gray-800">Não esqueça!</h3>
+            <ul className="space-y-2">
+              <li className="text-gray-600">Biblia</li>
+              <li className="text-gray-600">Panelas</li>
+              <li className="text-gray-600">Lanternas</li>
+              <li className="text-gray-600">Corda</li>
+              <li className="text-gray-600">Cobertores</li>
             </ul>
           </div>
         </div>
