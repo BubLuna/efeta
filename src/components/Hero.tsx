@@ -86,13 +86,11 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-in" style={{ animationDelay: "300ms" }}>
-            <Button size="lg" className="bg-efeta-500 hover:bg-efeta-600 transition-all hover:scale-105">
-              Inscreva-se Agora
-            </Button>
-            <Button variant="outline" size="lg" className="border-efeta-500 text-efeta-500 hover:bg-efeta-50 transition-all">
-              Saiba Mais
-            </Button>
-          </div>
+            <a href="/inscricoes">
+              <Button size="lg" className="bg-efeta-500 hover:bg-efeta-600 transition-all hover:scale-105">
+                Inscreva-se Agora
+              </Button>
+            </a>
         </div>
         
         {/* Scroll indicator */}
