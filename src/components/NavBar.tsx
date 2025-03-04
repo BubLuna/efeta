@@ -79,18 +79,20 @@ const NavBar = () => {
         </nav>
 
         {/* Mobile Menu Button */}
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className={cn(
-            "md:hidden z-50 p-2 transition-colors",
-            isScrolled
-              ? "text-gray-700 hover:text-efeta-500"
-              : "text-white hover:text-efeta-50"
-          )}
-          aria-label={isOpen ? 'Fechar menu' : 'Abrir menu'}
-        >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        {!isScrolled && (
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className={cn(
+              "md:hidden z-50 p-2 transition-colors",
+              isScrolled
+                ? "text-gray-700 hover:text-efeta-500"
+                : "text-white hover:text-efeta-50"
+            )}
+            aria-label={isOpen ? 'Fechar menu' : 'Abrir menu'}
+          >
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        )}
 
         {/* Mobile Navigation */}
         <div
