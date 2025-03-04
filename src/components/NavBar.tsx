@@ -68,12 +68,14 @@ const NavBar = () => {
               {item.name}
             </button>
           ))}
-          <a href="/inscricoes" className={cn(
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9NgYJkKlw9Vl9ei5wYvg53l56SLAJeU3UNKBADle87zstMg/viewform" className={cn(
             "ml-2 px-4 py-2 rounded-md font-medium transition-all duration-200",
             isScrolled
               ? "bg-efeta-500 hover:bg-efeta-600 text-white"
               : "bg-white text-efeta-500 hover:bg-efeta-50"
           )}>
+            Inscreva-se
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -117,7 +119,7 @@ const NavBar = () => {
                 {item.name}
               </button>
             ))}
-            <a href="/inscricoes" className="w-full mt-4 px-4 py-3 rounded-md font-medium text-lg bg-efeta-500 hover:bg-efeta-600 text-white transition-colors">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9NgYJkKlw9Vl9ei5wYvg53l56SLAJeU3UNKBADle87zstMg/viewform" className="w-full mt-4 px-4 py-3 rounded-md font-medium text-lg bg-efeta-500 hover:bg-efeta-600 text-white transition-colors">
               Inscreva-se
             </a>
           </nav>
