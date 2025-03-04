@@ -25,22 +25,47 @@ const Footer = () => {
           </div>
 
           <div className="col-span-1">
-            <h3 className="font-display text-lg font-semibold mb-4 text-gray-800">Links Rápidos</h3>
+            <h3 className="font-display text-lg font-semibold mb-4 text-gray-800">Acesso Rápido</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-600 hover:text-efeta-500 transition-colors">Início</Link>
+                <button 
+                  onClick={() => scrollToSection('start')}
+                  className="text-gray-600 hover:text-efeta-500 transition-colors"
+                >
+                  Início
+                </button>
               </li>
               <li>
-                <Link to="/sobre" className="text-gray-600 hover:text-efeta-500 transition-colors">Sobre</Link>
+                <button 
+                  onClick={() => scrollToSection('info')}
+                  className="text-gray-600 hover:text-efeta-500 transition-colors"
+                >
+                  Sobre
+                </button>
               </li>
               <li>
-                <Link to="/programacao" className="text-gray-600 hover:text-efeta-500 transition-colors">Programação</Link>
+                <button 
+                  onClick={() => scrollToSection('historico')}
+                  className="text-gray-600 hover:text-efeta-500 transition-colors"
+                >
+                  Histórico
+                </button>
               </li>
               <li>
-                <Link to="/inscricoes" className="text-gray-600 hover:text-efeta-500 transition-colors">Inscrições</Link>
+                <button 
+                  onClick={() => scrollToSection('inscricoes')}
+                  className="text-gray-600 hover:text-efeta-500 transition-colors"
+                >
+                  Inscrições
+                </button>
               </li>
               <li>
-                <Link to="/contato" className="text-gray-600 hover:text-efeta-500 transition-colors">Contato</Link>
+                <button 
+                  onClick={() => scrollToSection('faq')}
+                  className="text-gray-600 hover:text-efeta-500 transition-colors"
+                >
+                  FAQ
+                </button>
               </li>
             </ul>
           </div>
