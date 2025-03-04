@@ -119,9 +119,13 @@ const NavBar = () => {
                 {item.name}
               </button>
             ))}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9NgYJkKlw9Vl9ei5wYvg53l56SLAJeU3UNKBADle87zstMg/viewform" className="w-full mt-4 px-4 py-3 rounded-md font-medium text-lg bg-efeta-500 hover:bg-efeta-600 text-white transition-colors">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe9NgYJkKlw9Vl9ei5wYvg53l56SLAJeU3UNKBADle87zstMg/viewform"
+              className="w-full mt-4 px-4 py-3 rounded-md font-medium text-lg bg-efeta-500 hover:bg-efeta-600 text-white transition-colors block mx-auto text-center"
+            >
               Inscreva-se
             </a>
+
           </nav>
         </div>
       </div>
