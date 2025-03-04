@@ -6,13 +6,13 @@ import { ChevronLeft, ChevronRight, Image } from 'lucide-react';
 const photos = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    alt: "Retiro em meio à natureza - Lago cercado por árvores"
+    url: "https://flic.kr/p/2qQ3wFV",
+    alt: "Sabedoria de São Francisco"
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05",
-    alt: "Momentos de reflexão - Montanha com neblina"
+    url: "https://www.flickr.com/photos/202335097@N05/54364940263/in/dateposted-public/",
+    alt: "Sorrisos que Contagiam"
   },
   {
     id: 3,
@@ -31,6 +31,11 @@ const photos = [
   },
   {
     id: 6,
+    url: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec",
+    alt: "Acampamento ao ar livre - Tendas montadas"
+  }
+  {
+    id: 7,
     url: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec",
     alt: "Acampamento ao ar livre - Tendas montadas"
   }
