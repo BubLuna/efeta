@@ -36,14 +36,14 @@ const Index = () => {
       <NavBar />
       
       <main>
-        <Hero />
-        <EventInfo />
-        <Features />
-        <Testimonials />
-        <PhotoGallery />
-        <Schedule />
-        <RegistrationCTA />
-        <FAQ />
+        <section id="start"><Hero /></section>
+        <section id="info"><EventInfo /></section>
+        <section id="start"><Features /></section>
+        <section id="relatos"><Testimonials /></section>
+        <section id="fotos"><PhotoGallery /></section>
+        <section id="historico"><Schedule /></section>
+        <section id="inscricoes"><RegistrationCTA /></section>
+        <section id="faq"><FAQ /></section>
       </main>
       
       <Footer />
