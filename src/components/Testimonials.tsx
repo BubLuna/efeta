@@ -13,22 +13,28 @@ interface Testimonial {
 const Testimonials = () => {
   const testimonials: Testimonial[] = [
     {
-      quote: "O Acampamento EFETA mudou minha vida. Encontrei amigos verdadeiros e fortaleci minha fé de uma forma que nunca imaginei ser possível.",
-      author: "Maria Silva",
-      role: "Participante da 10ª Edição",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=150"
+      quote: "O Éfeta trouxe de volta a luz de Deus na minha vida. Foi uma experiência que renovou minha fé e me mostrou que, com coragem e a presença de Deus, posso vencer meus medos e enfrentar o mundo. Eu amo, e não tenho dúvida que é o melhor acampamento do mundo, onde Deus se faz presente em todos os momentos!",
+      author: "Rohana Lunardi",
+      role: "Participante da 9ª Edição",
+      image: "https://live.staticflickr.com/65535/54365482813_e9fd552091_b.jpg"
     },
     {
       quote: "Uma experiência única de renovação espiritual. As palestras, os momentos de adoração e a comunhão com outros jovens foram transformadores.",
-      author: "João Oliveira",
-      role: "Participante da 9ª Edição",
-      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=150"
+      author: "Maria Laura",
+      role: "Participante da 8ª Edição",
+      image: "https://live.staticflickr.com/65535/54365482813_e9fd552091_b.jpg"
     },
     {
       quote: "Momentos de profunda conexão com Deus e com pessoas que compartilham os mesmos valores. Sinto que voltei renovada para enfrentar os desafios diários.",
-      author: "Ana Costa",
+      author: "Kaio da Rosa",
       role: "Participante da 10ª Edição",
       image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150"
+    },
+    {
+      quote: "Quando nos encontramos nos piores lugares do mundo, somente Deus pode nos salvar. O Éfeta, é o passo pra melhora e é também o lugar para encontrar as pessoas certas que nao nos deixam mais decair. É a maior virada de chave da nossa vida!",
+      author: "Rebeca Bublitz",
+      role: "Participante da 8ª Edição",
+      image: "https://live.staticflickr.com/65535/54365650505_0a0167cd36_c.jpg"
     }
   ];
 
