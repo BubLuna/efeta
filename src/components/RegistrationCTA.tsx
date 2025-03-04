@@ -19,7 +19,7 @@ const RegistrationCTA = () => {
   }, []);
   
   return (
-    <section className="py-20 relative overflow-hidden">
+    <section className="py-20 relative overflow-hidden" id="inscricoes">
       {/* Seção de Inscrição */}
       <div className="relative bg-efeta-50 py-16 overflow-hidden">
         {/* Background image with blur effect */}
