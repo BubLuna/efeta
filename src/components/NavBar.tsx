@@ -1,17 +1,13 @@
-
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import Logo from './Logo';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const location = useLocation();
-  const isMobile = useIsMobile();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,18 +19,21 @@ const NavBar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close mobile menu when route changes
-  useEffect(() => {
-    setIsOpen(false);
-  }, [location.pathname]);
-
   const navItems = [
-    { name: 'Início', path: '#start' },
-    { name: 'Sobre', path: '#info' },
-    { name: 'Histórico', path: '#historico' },
-    { name: 'Inscrições', path: '#inscricoes' },
-    { name: 'FAQ', path: '#faq' },
+    { name: 'Início', id: 'start' },
+    { name: 'Sobre', id: 'info' },
+    { name: 'Histórico', id: 'historico' },
+    { name: 'Inscrições', id: 'inscricoes' },
+    { name: 'FAQ', id: 'faq' },
   ];
+
+  // Função para rolar suavemente até a seção
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <header 
@@ -46,29 +45,28 @@ const NavBar = () => {
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="z-50">
+        <a href="/" className="z-50">
           <Logo size={isScrolled ? 'sm' : 'md'} className={isScrolled ? '' : 'text-white'} />
-        </Link>
+        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-1">
           {navItems.map((item) => (
-            <Link
-              key={item.path}
-              to={item.path}
+            <button
+              key={item.id} // Alteração: usando ID em vez de path
               className={cn(
                 'px-4 py-2 rounded-md font-medium transition-all duration-200',
                 isScrolled
-                  ? location.pathname === item.path
-                    ? 'text-efeta-600 bg-efeta-50'
-                    : 'text-gray-600 hover:text-efeta-500 hover:bg-gray-50'
-                  : location.pathname === item.path
-                    ? 'text-efeta-500 bg-white'
-                    : 'text-white hover:bg-efeta-600/50'
+                  ? 'text-gray-600 hover:text-efeta-500 hover:bg-gray-50'
+                  : 'text-white hover:bg-efeta-600/50'
               )}
+              onClick={() => {
+                setIsOpen(false);
+                scrollToSection(item.id); // Alteração: rolando para a seção ao clicar
+              }}
             >
               {item.name}
-            </Link>
+            </button>
           ))}
           <Button className={cn(
             "ml-2 transition-colors",
@@ -103,19 +101,19 @@ const NavBar = () => {
         >
           <nav className="flex flex-col space-y-4">
             {navItems.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
+              <button
+                key={item.id} // Alteração: usando ID em vez de path
                 className={cn(
                   'px-4 py-3 rounded-md font-medium text-lg border-b border-gray-100',
-                  location.pathname === item.path
-                    ? 'text-efeta-600 bg-efeta-50'
-                    : 'text-gray-600 hover:text-efeta-500 active:bg-gray-50'
+                  'text-gray-600 hover:text-efeta-500 active:bg-gray-50'
                 )}
-                onClick={() => setIsOpen(false)}
+                onClick={() => {
+                  setIsOpen(false);
+                  scrollToSection(item.id); // Alteração: rolando para a seção ao clicar
+                }}
               >
                 {item.name}
-              </Link>
+              </button>
             ))}
             <Button className="w-full mt-4 bg-efeta-500 hover:bg-efeta-600 transition-colors">
               Inscreva-se
