@@ -6,38 +6,38 @@ import { ChevronLeft, ChevronRight, Image } from 'lucide-react';
 const photos = [
   {
     id: 1,
-    url: "https://flic.kr/p/2qQ3wFV",
+    url: "https://live.staticflickr.com/65535/54364940243_78953288df_h.jpg",
     alt: "Sabedoria de São Francisco"
   },
   {
     id: 2,
-    url: "https://www.flickr.com/photos/202335097@N05/54364940263/in/dateposted-public/",
+    url: "https://live.staticflickr.com/65535/54364940263_ecf71bd960_h.jpg",
     alt: "Sorrisos que Contagiam"
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
-    alt: "Experiência espiritual - Montanha iluminada por raios de sol"
+    url: "https://live.staticflickr.com/65535/54363840717_62ac45b3a5_h.jpg",
+    alt: "Igreja Jovem!"
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1444080748397-f442aa95c3e5",
-    alt: "Comunidade reunida - Jovens em oração"
+    url: "https://live.staticflickr.com/65535/54364918419_69123651cb_b.jpg",
+    alt: "Comunidade, Oração e Comunhão"
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1455849318743-b2233052fcff",
-    alt: "Momentos de adoração - Grupo com as mãos levantadas"
+    url: "https://live.staticflickr.com/65535/54364918464_ea5c0db821_b.jpg",
+    alt: "Caminhos de Luz"
   },
   {
     id: 6,
-    url: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec",
-    alt: "Acampamento ao ar livre - Tendas montadas"
+    url: "https://live.staticflickr.com/65535/54364918424_b4a70ff83e_b.jpg",
+    alt: "Chamado à Missão!"
   }
   {
     id: 7,
-    url: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec",
-    alt: "Acampamento ao ar livre - Tendas montadas"
+    url: "https://live.staticflickr.com/65535/54364918459_2b4b03c624_b.jpg",
+    alt: "A Caminhada Contínua"
   }
 ];
 
