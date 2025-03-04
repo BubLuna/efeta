@@ -5,8 +5,6 @@ import { Clock } from 'lucide-react';
 import CountdownTimer from './CountdownTimer';
 
 const RegistrationCTA = () => {
-  // Defina a data alvo (2 de Maio de 2024)
-  const targetDate = new Date('2024-05-02T00:00:00');
   
   // Estado para controlar se a imagem está carregada
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -42,22 +40,6 @@ const RegistrationCTA = () => {
               <Button size="lg" className="bg-efeta-500 hover:bg-efeta-600 transition-all hover:scale-105">
                 Inscreva-se Agora
               </Button>
-            </div>
-            
-            <div className="mt-10 flex justify-center">
-              <div className="bg-white rounded-xl p-8 shadow-medium max-w-md w-full">
-                <CountdownTimer targetDate={targetDate} />
-                
-                <div className="mt-8 pt-6 border-t border-gray-100">
-                  <div className="flex items-center text-efeta-500 mb-4 justify-center">
-                    <Clock size={20} className="mr-2" />
-                    <span className="font-medium">Inscrições encerram em breve!</span>
-                  </div>
-                  <Button className="w-full bg-efeta-500 hover:bg-efeta-600 transition-colors">
-                    Reservar Minha Vaga
-                  </Button>
-                </div>
-              </div>
             </div>
           </div>
         </div>
