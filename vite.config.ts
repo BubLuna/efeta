@@ -18,5 +18,4 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/efeta/', // Substitua "meu-app" pelo nome do seu repositório
 }));

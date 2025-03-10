@@ -22,7 +22,7 @@ const Schedule = () => {
   const schedule: DaySchedule[] = [
     {
       date: "10º Éfeta",
-      day: "Setembro 2024",
+      day: "09/2024",
       theme: "Eu Vos Escolhi | Jo 15,19",
       items: [
         {
@@ -59,7 +59,7 @@ const Schedule = () => {
     },
     {
       date: "9º Éfeta",
-      day: "Maio 2024",
+      day: "05/2024",
       theme: "Coragem! Eu venci o mundo | Jo 16,33",
       items: [
         {
@@ -96,7 +96,7 @@ const Schedule = () => {
     },
     {
       date: "8º Éfeta",
-      day: "Setembro 2023",
+      day: "09/2023",
       theme: "Mostra-nos tua face Senhor |  Salmo 80:19",
       items: [
         {
@@ -126,7 +126,7 @@ const Schedule = () => {
         {
           time: "V",
           title: "Relato de um Efetado da Edição",
-          description: "Muito show (Rebeca Lindona Gata, 19 anos)",
+          description: "O momento mais importante da minha vida! (Rebeca, 19 anos)",
           icon: <Heart size={18} />
         }
       ]
