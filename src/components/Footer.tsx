@@ -15,7 +15,13 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center justify-center">
                 <MapPin size={18} className="mr-2 text-efeta-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-600">Santuário da Beata Albertina</span>
+                <a 
+                  href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 
+                  target="_blank" 
+                  className="text-gray-700"
+                >
+                  Santuário da Beata Albertina
+                </a>
               </li>
               <li className="flex items-center justify-center">
                 <Mail size={18} className="mr-2 text-efeta-500 flex-shrink-0" />
