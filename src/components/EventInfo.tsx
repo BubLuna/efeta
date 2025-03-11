@@ -38,7 +38,15 @@ const EventInfo = () => {
     {
       icon: <MapPin size={24} />,
       title: "Local",
-      description: "São Luiz, Imaruí - SC",
+      description: String(
+        <a 
+          href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 
+          target="_blank" 
+          className="text-gray-700"
+        >
+          São Luiz, Imaruí - SC
+        </a>
+      ),
     },
     {
       icon: <Clock size={24} />,

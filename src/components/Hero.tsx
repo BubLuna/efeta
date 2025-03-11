@@ -81,7 +81,13 @@ const Hero = () => {
             </div>
             <div className="flex items-center justify-center glass-orange px-4 py-3 rounded-lg border border-efeta-300">
               <MapPin className="text-efeta-500 mr-2" size={20} />
-              <span className="text-gray-700">Santuário da Beata Albertina</span>
+              <a 
+                href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 
+                target="_blank" 
+                className="text-gray-700"
+              >
+                Santuário da Beata Albertina
+              </a>
             </div>
           </div>
           
