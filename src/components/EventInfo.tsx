@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils';
 interface EventInfoItemProps {
   icon: React.ReactNode;
   title: string;
-  description: string;
+  description: React.ReactNode;
   className?: string;
   style?: React.CSSProperties;
 }
@@ -38,7 +38,7 @@ const EventInfo = () => {
     {
       icon: <MapPin size={24} />,
       title: "Local",
-      description: String(
+      description: (
         <a 
           href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 
           target="_blank" 
