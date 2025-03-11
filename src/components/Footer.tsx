@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
-import { Heart, Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Heart, Mail, Phone, MapPin, Instagram, Facebook } from 'lucide-react';
 
 const Footer = () => {
   return (

@@ -29,7 +29,7 @@ const EventInfo = () => {
   // Efeito para pré-carregar a imagem
   useEffect(() => {
     const img = new Image();
-    img.src = 'https://live.staticflickr.com/65535/54364918464_e6f9ccdf0f_k.jpg'; // Substitua pela URL desejada
+    img.src = 'https://live.staticflickr.com/65535/54379913251_b23b6a675b_b.jpg'; // Substitua pela URL desejada
     img.onload = () => setImageLoaded(true);
   }, []);
 
@@ -72,7 +72,7 @@ const EventInfo = () => {
         <div 
           className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ${imageLoaded ? 'opacity-30' : 'opacity-0'}`}
           style={{ 
-            backgroundImage: "url('https://live.staticflickr.com/65535/54364918464_e6f9ccdf0f_k.jpg')", // Substitua pela URL desejada
+            backgroundImage: "url('https://live.staticflickr.com/65535/54379913251_b23b6a675b_b.jpg')", // Substitua pela URL desejada
             filter: "blur(8px)",
             transition: "filter 1s ease-in-out"
           }}
