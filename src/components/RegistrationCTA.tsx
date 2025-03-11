@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Clock } from 'lucide-react';
-import CountdownTimer from './CountdownTimer';
 
 const RegistrationCTA = () => {
   

@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Calendar, Users, MapPin, Clock } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -24,6 +23,16 @@ const EventInfoItem: React.FC<EventInfoItemProps> = ({ icon, title, description,
 };
 
 const EventInfo = () => {
+  // Estado para controlar se a imagem está carregada
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  // Efeito para pré-carregar a imagem
+  useEffect(() => {
+    const img = new Image();
+    img.src = 'https://live.staticflickr.com/65535/54364918424_b4a70ff83e_b.jpg'; // Substitua pela URL desejada
+    img.onload = () => setImageLoaded(true);
+  }, []);
+
   const infoItems = [
     {
       icon: <Calendar size={24} />,
@@ -56,26 +65,40 @@ const EventInfo = () => {
   ];
 
   return (
-    <section className="py-20 bg-white" id="info">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900">Informações do Evento</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Tudo o que você precisa saber sobre o Acampamento ÉFETA, um retiro voltado para a renovação espiritual e conexão com Deus.
-          </p>
-        </div>
+    <section className="py-20 relative overflow-hidden" id="info">
+      {/* Seção de Informações do Evento */}
+      <div className="relative bg-efeta-50 py-16 overflow-hidden">
+        {/* Background image with blur effect */}
+        <div 
+          className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ${imageLoaded ? 'opacity-30' : 'opacity-0'}`}
+          style={{ 
+            backgroundImage: "url('https://live.staticflickr.com/65535/54364918424_b4a70ff83e_b.jpg')", // Substitua pela URL desejada
+            filter: "blur(8px)",
+            transition: "filter 1s ease-in-out"
+          }}
+        ></div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {infoItems.map((item, index) => (
-            <EventInfoItem
-              key={index}
-              icon={item.icon}
-              title={item.title}
-              description={item.description}
-              className="animate-slide-in"
-              style={{ animationDelay: `${index * 100}ms` }}
-            />
-          ))}
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900">Informações do Evento</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Tudo o que você precisa saber sobre o Acampamento ÉFETA, um retiro voltado para a renovação espiritual e conexão com Deus.
+            </p>
+          </div>
+
+          {/* Informações do Evento */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {infoItems.map((item, index) => (
+              <EventInfoItem
+                key={index}
+                icon={item.icon}
+                title={item.title}
+                description={item.description}
+                className="animate-slide-in"
+                style={{ animationDelay: `${index * 100}ms` }}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
