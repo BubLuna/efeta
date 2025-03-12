@@ -154,7 +154,7 @@ const Schedule = () => {
                 onClick={() => setActiveDay(`day-${index + 1}`)}
                 className={cn(
                   "text-base py-3",
-                  activeDay === `day-${index + 1 }` ? "bg-efeta-100 text-white" :  "bg-white text-gray-700"
+                  activeDay === `day-${index + 1 }` ? "bg-white text-gray-700" :  "bg-efeta-100 text-gray-700"
                 )}
               >
                 <div className="flex flex-col items-center">

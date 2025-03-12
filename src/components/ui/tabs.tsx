@@ -43,7 +43,7 @@ const TabsTrigger = React.forwardRef<
       "disabled:pointer-events-none disabled:opacity-50",
     
       // Active State
-      "data-[state=active]:bg-background {background-color: rgb(249 115 22);} data-[state=active]:text-foreground {color: hsl(0deg 0% 100%);} data-[state=active]:shadow-sm",
+      "data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm",
       
       // Additional custom classes
       className
