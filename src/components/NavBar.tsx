@@ -46,6 +46,9 @@ const NavBar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Logo size={isScrolled ? 'sm' : 'md'} className={isScrolled ? '' : 'text-white'} />
+        <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-200 transition-colors" aria-label="Instagram">
+            <Instagram size={20} />
+        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-1">
@@ -73,10 +76,6 @@ const NavBar = () => {
               : "bg-white text-efeta-500 hover:bg-efeta-50"
           )}>
             Inscreva-se
-          </a>
-
-          <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-500 transition-colors" aria-label="Instagram">
-            <Instagram size={20} />
           </a>
         </nav>
 
