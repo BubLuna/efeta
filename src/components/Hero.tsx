@@ -60,11 +60,6 @@ const Hero = () => {
       {/* Content container */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 pt-20">
         <div className="glass max-w-3xl p-8 rounded-2xl animate-fade-in border-t-4 border-efeta-500">
-          <div className="mb-4 inline-block">
-              <span className="px-4 py-1 rounded-full text-sm font-medium bg-efeta-500 text-white animate-pulse-soft">
-                11ª Edição
-              </span>
-          </div>
 
           <div className="flex space-x-4 text-gray-500 justify-center">
               <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-500 transition-colors" aria-label="Instagram">
@@ -73,6 +68,12 @@ const Hero = () => {
               <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facampamentoefeta%2F" className="hover:text-efeta-500 transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
+          </div>
+
+          <div className="mb-4 inline-block">
+              <span className="px-4 py-1 rounded-full text-sm font-medium bg-efeta-500 text-white animate-pulse-soft">
+                11ª Edição
+              </span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-efeta-950 text-shadow animate-slide-in">

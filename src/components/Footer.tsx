@@ -31,7 +31,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center justify-center">
                 <Phone size={18} className="mr-2 text-efeta-500 flex-shrink-0" />
-                <a className="text-gray-600 hover:text-efeta-500 transition-colors">
+                <a href="https://wa.me/5548999885086" className="text-gray-600 hover:text-efeta-500 transition-colors">
                   (11) 99999-9999
                 </a>
               </li>
