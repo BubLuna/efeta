@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 
 interface EventInfoItemProps {
   icon: React.ReactNode;
-  title: string;
+  title: React.ReactNode;
   description: React.ReactNode;
   className?: string;
   style?: React.CSSProperties;
@@ -45,8 +45,23 @@ const EventInfo = () => {
       description: "Jovens de 20 a 35 anos",
     },
     {
-      icon: <MapPin size={24} />,
-      title: "Local",
+      icon: ( 
+        <a 
+          href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 
+          target="_blank" 
+        >
+          <MapPin size={24} />
+        </a>
+      ),
+      title:( 
+        <a 
+          href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 
+          target="_blank" 
+          className="text-gray-700"
+        >
+          Local
+        </a>
+      ),
       description: (
         <a 
           href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 

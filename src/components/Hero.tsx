@@ -102,7 +102,7 @@ const Hero = () => {
         
         {/* Scroll indicator */}
         <div 
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer animate-float"
+          className="absolute bottom-8 left-1/2 transform translate-x-[-50%] cursor-pointer animate-float"
           onClick={scrollToContent}
         >
           <ChevronDown className="text-white drop-shadow-md" size={36} />
