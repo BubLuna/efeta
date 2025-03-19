@@ -74,7 +74,7 @@ const Footer = () => {
             <Heart size={14} className="mx-1 text-efeta-500" /> 
             por {' '} 
             <a href="https://www.instagram.com/rebecalunardibublitz/" className="hover:text-efeta-500 transition-colors">
-              " Rebeca Lunardi Bublitz."
+               Rebeca Lunardi Bublitz.
             </a>
           </p>
         </div>

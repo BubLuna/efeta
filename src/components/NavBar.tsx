@@ -91,7 +91,7 @@ const NavBar = () => {
             )}
             aria-label={isOpen ? 'Fechar menu' : 'Abrir menu'}
           >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+            {isOpen ? <X color='text-efeta-500' size={24} /> : <Menu size={24} />}
           </button>
         )}
 
