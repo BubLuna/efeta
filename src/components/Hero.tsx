@@ -99,15 +99,6 @@ const Hero = () => {
               </Button>
             </a>
           </div>
-
-          <div className="flex space-x-4 text-gray-500 justify-center">
-              <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-500 transition-colors" aria-label="Instagram">
-                <Instagram size={20} />
-              </a>
-              <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facampamentoefeta%2F" className="hover:text-efeta-500 transition-colors" aria-label="Facebook">
-                <Facebook size={20} />
-              </a>
-          </div>
         </div>
         
         {/* Scroll indicator 

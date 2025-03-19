@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import Logo from './Logo';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useIsMobile } from '@/hooks/use-mobile';
 
@@ -73,6 +73,10 @@ const NavBar = () => {
               : "bg-white text-efeta-500 hover:bg-efeta-50"
           )}>
             Inscreva-se
+          </a>
+
+          <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-500 transition-colors" aria-label="Instagram">
+            <Instagram size={20} />
           </a>
         </nav>
 
