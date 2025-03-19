@@ -49,6 +49,7 @@ const EventInfo = () => {
         <a 
           href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 
           target="_blank" 
+          className="text-efeta-500"
         >
           <MapPin size={24} />
         </a>

@@ -45,9 +45,7 @@ const NavBar = () => {
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <a href="/" className="z-50">
-          <Logo size={isScrolled ? 'sm' : 'md'} className={isScrolled ? '' : 'text-white'} />
-        </a>
+        <Logo size={isScrolled ? 'sm' : 'md'} className={isScrolled ? '' : 'text-white'} />
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-1">
