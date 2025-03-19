@@ -45,7 +45,7 @@ const FAQ = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900">Perguntas Frequentes</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Esclarecemos as dúvidas mais comuns sobre o Acampamento ÉFETA. Se sua pergunta não estiver aqui, entre em contato conosco.
+            Esclarecemos as dúvidas mais comuns sobre o Acampamento ÉFETA.
           </p>
         </div>
 
@@ -65,9 +65,9 @@ const FAQ = () => {
           
           <div className="text-center mt-8">
             <p className="text-gray-600">
-              Ainda tem dúvidas? Entre em contato com nossa equipe pelo email{' '}
-              <a href="mailto:contato@acampamentoefeta.com" className="text-efeta-500 hover:underline">
-                contato@acampamentoefeta.com
+              Ainda tem dúvidas? Entre em contato com nossa equipe pelo telefone {' '}
+              <a href="https://wa.me/5548999885086" className="text-efeta-500 hover:underline">
+                +55 (48) 9.9988-5086
               </a>
             </p>
           </div>

@@ -61,15 +61,6 @@ const Hero = () => {
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 pt-20">
         <div className="glass max-w-3xl p-8 rounded-2xl animate-fade-in border-t-4 border-efeta-500">
 
-          <div className="flex space-x-4 text-gray-500 justify-center">
-              <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-500 transition-colors" aria-label="Instagram">
-                <Instagram size={20} />
-              </a>
-              <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facampamentoefeta%2F" className="hover:text-efeta-500 transition-colors" aria-label="Facebook">
-                <Facebook size={20} />
-              </a>
-          </div>
-
           <div className="mb-4 inline-block">
               <span className="px-4 py-1 rounded-full text-sm font-medium bg-efeta-500 text-white animate-pulse-soft">
                 11ª Edição
@@ -83,7 +74,16 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-gray-700 mb-6 max-w-2xl mx-auto animate-slide-in" style={{ animationDelay: "100ms" }}>
             "No Senhor ponho minha esperança" <span className="text-efeta-500">Salmo 146:5</span>
           </p>
-          
+
+          <div className="flex space-x-4 text-gray-500 justify-center">
+              <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-500 transition-colors" aria-label="Instagram">
+                <Instagram size={20} />
+              </a>
+              <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facampamentoefeta%2F" className="hover:text-efeta-500 transition-colors" aria-label="Facebook">
+                <Facebook size={20} />
+              </a>
+          </div>
+
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8 animate-slide-in" style={{ animationDelay: "200ms" }}>
             <div className="flex items-center justify-center glass-orange px-4 py-3 rounded-lg border border-efeta-300">
               <Calendar className="text-efeta-500 mr-2" size={20} />
