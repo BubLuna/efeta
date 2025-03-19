@@ -75,15 +75,6 @@ const Hero = () => {
             "No Senhor ponho minha esperança" <span className="text-efeta-500">Salmo 146:5</span>
           </p>
 
-          <div className="flex space-x-4 text-gray-500 justify-center">
-              <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-500 transition-colors" aria-label="Instagram">
-                <Instagram size={20} />
-              </a>
-              <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facampamentoefeta%2F" className="hover:text-efeta-500 transition-colors" aria-label="Facebook">
-                <Facebook size={20} />
-              </a>
-          </div>
-
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8 animate-slide-in" style={{ animationDelay: "200ms" }}>
             <div className="flex items-center justify-center glass-orange px-4 py-3 rounded-lg border border-efeta-300">
               <Calendar className="text-efeta-500 mr-2" size={20} />
@@ -108,15 +99,24 @@ const Hero = () => {
               </Button>
             </a>
           </div>
+
+          <div className="flex space-x-4 text-gray-500 justify-center">
+              <a href="https://www.instagram.com/acampamentoefeta/" className="hover:text-efeta-500 transition-colors" aria-label="Instagram">
+                <Instagram size={20} />
+              </a>
+              <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facampamentoefeta%2F" className="hover:text-efeta-500 transition-colors" aria-label="Facebook">
+                <Facebook size={20} />
+              </a>
+          </div>
         </div>
         
-        {/* Scroll indicator */}
+        {/* Scroll indicator 
         <div 
           className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer animate-float"
           onClick={scrollToContent}
         >
           <ChevronDown className="text-white drop-shadow-md" size={36} />
-        </div>
+        </div>*/}
       </div>
     </div>
   );

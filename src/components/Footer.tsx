@@ -72,7 +72,10 @@ const Footer = () => {
           <p className="flex items-center justify-center">
             © {new Date().getFullYear()} Acampamento ÉFETA. Site feito com 
             <Heart size={14} className="mx-1 text-efeta-500" /> 
-            por Rebeca Lunardi Bublitz.
+            por {' '} 
+            <a href="https://www.instagram.com/rebecalunardibublitz/" className="hover:text-efeta-500 transition-colors">
+              Rebeca Lunardi Bublitz.
+            </a>
           </p>
         </div>
       </div>
