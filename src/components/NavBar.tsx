@@ -24,7 +24,7 @@ const NavBar = () => {
     { name: 'Sobre', id: 'info' },
     { name: 'Histórico', id: 'historico' },
     { name: 'Inscrições', id: 'inscricoes' },
-    { name: 'FAQ', id: 'faq' },
+    { name: 'Dúvidas', id: 'faq' },
   ];
 
   // Função para rolar suavemente até a seção

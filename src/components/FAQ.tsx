@@ -66,7 +66,7 @@ const FAQ = () => {
           <div className="text-center mt-8">
             <p className="text-gray-600">
               Ainda tem dúvidas? Entre em contato com nossa equipe pelo telefone {' '}
-              <a href="https://wa.me/5548999885086" className="text-efeta-500 hover:underline">
+              <a href="https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ÉFETA!%20Gostaria%20de%20mais%20informações%20:" className="text-efeta-500 hover:underline">
                 +55 (48) 9.9988-5086
               </a>
             </p>

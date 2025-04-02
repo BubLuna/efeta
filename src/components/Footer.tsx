@@ -18,7 +18,7 @@ const Footer = () => {
                 <a 
                   href="https://maps.app.goo.gl/pR3gYQZWRKxH4wUMA" 
                   target="_blank" 
-                  className="text-gray-700"
+                  className="text-gray-600 hover:text-efeta-500 transition-colors"
                 >
                   Santuário da Beata Albertina
                 </a>
@@ -31,8 +31,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center justify-center">
                 <Phone size={18} className="mr-2 text-efeta-500 flex-shrink-0" />
-                <a href="https://wa.me/5548999885086" className="text-gray-600 hover:text-efeta-500 transition-colors">
-                  (11) 99999-9999
+                <a href="https://wa.me/48999885086?text=Olá,%20vim%20pelo%20site%20do%20ÉFETA!%20Gostaria%20de%20mais%20informações%20:" className="text-gray-600 hover:text-efeta-500 transition-colors">
+                  (48) 9.9988-5086
                 </a>
               </li>
             </ul>
